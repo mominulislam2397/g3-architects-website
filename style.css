@@ -73,8 +73,6 @@ nav li a{
 }
 
 
-
-
 /* main s  */
  main{
   max-width: 1440px;
@@ -191,6 +189,19 @@ nav li a{
   width: 165px;
 }
 
+/* footer style */
+footer{
+  border-radius: 8px;
+  background: #FFF4E7;
+  margin-bottom: 130px;
+  margin-left: 240px;
+  width: 1440px;
+  height: 100px;
+  text-align: center;
+}
+.footer-copypast p{
+  padding: 40px 400px;
+}
 
 
 
@@ -229,7 +240,12 @@ nav li a{
    .facts-card-container{
     gap: 20px;
    }
+   footer{
+    margin-left: 0px;
+   }
 }
+  
+
 
 /* tablet or medium device */
 @media screen and (min-width:576px) and (max-width:960px) {
